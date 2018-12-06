@@ -1,0 +1,4 @@
+#!/bin/bash
+# a word
+
+julia -e 'if (VERSION < v"0.7-") Pkg.init(); Pkg.clone("https://github.com/vimalaad/CoolProp.jl.git"); Pkg.build("CoolProp")'
