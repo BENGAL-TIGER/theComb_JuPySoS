@@ -5,11 +5,10 @@ dependencies:
   - matplotlib
   - numpy
   - cantera
-  - julia
-  - julia=0.6.4
   - pint
   - bokeh
   - appmode
   - pip
   - pip:
+      - julia
       - CoolProp
