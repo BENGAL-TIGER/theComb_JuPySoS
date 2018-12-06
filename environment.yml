@@ -1,0 +1,12 @@
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib
+  - numpy
+  - pint
+  - bokeh
+  - appmode
+  - pip
+  - pip:
+      - julia
+      - CoolProp

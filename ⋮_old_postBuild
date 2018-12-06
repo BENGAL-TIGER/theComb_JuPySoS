@@ -1,0 +1,3 @@
+#!/usr/bin/julia
+Pkg.clone("https://github.com/vimalaad/CoolProp.jl.git")
+Pkg.build("CoolProp") # to download the latest binaries
