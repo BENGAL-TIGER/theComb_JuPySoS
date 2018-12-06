@@ -1,11 +1,11 @@
 #!/bin/bash
 # a word
-
-# build CoolProp for Julia
-julia -e 'if (VERSION > v"0.7-") using Pkg; else Pkg.init(); end; Pkg.clone("https://github.com/vimalaad/CoolProp.jl.git"); Pkg.build("CoolProp")'
-
-# Disable deprecated warnings in Julia 0.6
-julia -e 'if (VERSION < v"0.7-") using IJulia; IJulia.installkernel("Julia nodeps", "--depwarn=no"); end;'
+#
+# # build CoolProp for Julia
+# julia -e 'if (VERSION > v"0.7-") using Pkg; else Pkg.init(); end; Pkg.clone("https://github.com/vimalaad/CoolProp.jl.git"); Pkg.build("CoolProp")'
+#
+# # Disable deprecated warnings in Julia 0.6
+# julia -e 'if (VERSION < v"0.7-") using IJulia; IJulia.installkernel("Julia nodeps", "--depwarn=no"); end;'
 
 
 #setenv("JULIA_VERSION", "1.0.2")
