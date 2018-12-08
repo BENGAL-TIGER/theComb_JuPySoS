@@ -17,3 +17,5 @@
 - PyPlot
 - Gadfly
 - CoolProp (postBuild)
+
+#### SoS (not yet)
