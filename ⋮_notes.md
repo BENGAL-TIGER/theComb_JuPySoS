@@ -5,14 +5,14 @@ https://stackoverflow.com/questions/9031783/hide-all-warnings-in-ipython
 https://github.com/JuliaIO/Suppressor.jl
 
 ```bash
-`#!/bin/bash
+#!/bin/bash
 ```
 
-#!/srv/julia
+/#!/srv/julia
 
 /srv/julia
 
-#!/usr/bin/julia
+/#!/usr/bin/julia
 
 Step 36/46 : RUN julia -e 'if (VERSION > v"0.7-") using Pkg; else Pkg.init(); end; Pkg.add("IJulia"); using IJulia;' && mv ${HOME}/.local/share/jupyter/kernels/julia-${JULIA_VERSION%[.-]*}  ${NB_PYTHON_PREFIX}/share/jupyter/kernels/julia-${JULIA_VERSION%[.-]*}
 
